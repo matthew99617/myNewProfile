@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Button = ({ name, isBeam = false, containerClass}) => {
+const Button = ({ name, disable = false, isBeam = false, containerClass}) => {
   return (
-    <button className={`btn $${containerClass}`}>
+    <button className={`btn ${containerClass}`} disabled={disable}>
         {isBeam && (
             <span className='relative flex h-3 w-3'>
                 <span className='btn-ping' />

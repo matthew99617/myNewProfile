@@ -62,7 +62,6 @@ const Hero = () => {
         <section className='min-h-screen w-full flex flex-col relative'>
             <div className='w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3'>
                 <p className='sm:text-3xl text-2xl font-medium text-white text-center font-generalsans'>Hi, I am Matthew<span className="waving-hand">👋</span></p>
-                <p className='hero_tag text-gray_gradient'>Building Products & Brands</p>
 
                 <div className='w-full h-full absolute inset-0'>
                     {/* <Leva /> */}
@@ -101,7 +100,7 @@ const Hero = () => {
                 </div>
 
                 <div className='absolute bottom-7 left-0 right-0 w-full z-10 c-space'>
-                    <a href='#contact' className='w-fit'>
+                    <a href='#about' className='w-fit'>
                         <Button name="Contact Me" isBeam containerClass="sm:w-fit w-full sm:min-w-96"></Button>
                     </a>
                 </div>
