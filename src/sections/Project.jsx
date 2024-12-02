@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import { myProjects } from '../constants'
+import { useGSAP } from '@gsap/react'
+import gsap from 'gsap'
 
 const Project = () => {
   const [selectedProjectIndex, setselectedProjectIndex] = useState(0)
@@ -17,6 +19,10 @@ const Project = () => {
       }
     }))
   }
+
+  useGSAP(() => {
+    gsap.fromTo(`.animatedText`, { opacity: 0 }, { opacity: 1, duration: 1, stagger: 0.2, ease: 'power2.inOut' });
+  }, [selectedProjectIndex]);
 
   return (
     <section className='c-space my-20'>

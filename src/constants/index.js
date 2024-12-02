@@ -144,32 +144,22 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: "Framer",
-    pos: "Lead Web Developer",
-    duration: "2022 - Present",
+    name: "Autotoll Limited",
+    pos: "Mobile Developer",
+    duration: "2023.3 - 2023.9",
     title:
-      "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
+      "Autotoll provides a complete cross-platform solution for the autotolling. Drivers can throungh this service to utilize it for checking status of toll fees, and also for making payment. ",
     icon: "/assets/framer.svg",
-    animation: "victory",
-  },
-  {
-    id: 2,
-    name: "Figma",
-    pos: "Web Developer",
-    duration: "2020 - 2022",
-    title:
-      "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: "/assets/figma.svg",
     animation: "clapping",
   },
   {
-    id: 3,
-    name: "Notion",
-    pos: "Junior Web Developer",
-    duration: "2019 - 2020",
+    id: 2,
+    name: "Tradelink Electronics Commerce Limited",
+    pos: "Programmer",
+    duration: "2021.7 - 2022.8",
     title:
-      "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: "/assets/notion.svg",
+      "Tradelink helps me integrating mobile POS (Point of Sale) Terminal on swipe, tap, and insert for taking credit card data with Android Application, and also assisting me to complete user instruction documents. ",
+    icon: "/assets/tradelink.png",
     animation: "salute",
   },
 ];
