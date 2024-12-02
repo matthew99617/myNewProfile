@@ -5,7 +5,7 @@ import { useGSAP } from '@gsap/react'
 
 const AndroidIcon = (props) => {
     const androidRef = useRef();
-    const { scene } = useGLTF('/public/models/android.glb')
+    const { scene } = useGLTF('/models/android.glb')
 
     useGSAP(() => {
         gsap.to(androidRef.current.position, 

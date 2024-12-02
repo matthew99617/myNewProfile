@@ -2,7 +2,7 @@ import React, { useCallback, useContext, useRef } from 'react'
 import { useGLTF, useTexture } from '@react-three/drei'
 
 const Models = (props) => {
-  const { nodes, materials } = useGLTF('/public/models/scene.glb')
+  const { nodes, materials } = useGLTF('/models/scene.glb')
 
   const screenTexture = useTexture('/textures/desk/screen.png')
 
@@ -6120,6 +6120,6 @@ const Models = (props) => {
   )
 }
 
-useGLTF.preload('/public/models/scene.glb')
+useGLTF.preload('/models/scene.glb')
 
 export default Models;

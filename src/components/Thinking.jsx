@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import { Float, useGLTF } from '@react-three/drei'
 
 const Thinking = (props) => {
-  const { nodes, materials } = useGLTF('/public/models/thinking.glb')
+  const { nodes, materials } = useGLTF('/models/thinking.glb')
   return (
     <Float dispose={null}>
       <group rotation={[1.5, 3, 5]} {...props}>
@@ -23,6 +23,6 @@ const Thinking = (props) => {
   )
 }
 
-useGLTF.preload('/public/models/thinking.glb')
+useGLTF.preload('/models/thinking.glb')
 
 export default Thinking
