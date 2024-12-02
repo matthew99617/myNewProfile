@@ -149,7 +149,7 @@ export const workExperiences = [
     duration: "2023.3 - 2023.9",
     title:
       "Autotoll provides a complete cross-platform solution for the autotolling. Drivers can throungh this service to utilize it for checking status of toll fees, and also for making payment. ",
-    icon: "/assets/framer.svg",
+    icon: "/assets/autotoll.png",
     animation: "clapping",
   },
   {
